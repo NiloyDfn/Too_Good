@@ -108,7 +108,7 @@ function cursorAnimation(){
     })
     
     
-    var a =  document.querySelectorAll(".child")
+    let a =  document.querySelectorAll(".child")
     a.forEach(function(elem){
         elem.addEventListener("mousemove",function(){
             gsap.to(".cursor",{
