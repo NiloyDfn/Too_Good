@@ -188,15 +188,35 @@
   .page2 .elem .dets {
     height: 60px;
     position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 50px;
     width: 80%;
     background-color: palegoldenrod;
     transition: all ease 0.5s;
   }
   
+  .page2 .elem .dets p {
+    text-align: center;
+
+    opacity: 0;
+  }
+  .page2 .elem .dets:hover p{
+    opacity: 1;
+    margin-top: 2vw;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    transition: ease all .5s;
+  }
+
+  
+  
   .page2 .elem .dets:hover {
     height: 250px;
   }
+
   
   /* Page 3 Styles */
   .page3 {
